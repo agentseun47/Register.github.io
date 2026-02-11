@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cloud Connect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>CLOUD CONNECT</h1>
+    <h2>sign-in</h2>
+    <form id="loginForm" autocomplete="off">
+      <label>
+        Username
+        <input id="username" name="username" type="text" required />
+      </label>
+    
+      <div>
+      <label>
+        Password
+        <input id="password" name="password" type="password" required />
+        <small class="hint">Hint: Your password must be from 1 - 6
+        </small>
+      </label>
+      
+    
+      </div>
+      <button type="submit">Log in</button>
+      <p id="msg" class="muted"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
